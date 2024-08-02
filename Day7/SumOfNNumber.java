@@ -10,7 +10,7 @@ class SumOfNNumber {
         int sum = 0;
         for(int i=1;i<=n;i++)
         {
-            sum+=i;
+            sum+=i;//sum=sum+i;
         }
         System.out.println("Your sum is = "+sum);
     }
