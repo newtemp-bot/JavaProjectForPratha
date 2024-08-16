@@ -1,0 +1,17 @@
+1. **Single Inheritance:**
+   - Create a base class `Vehicle` with properties like `make`, `model`, and `year`, and a method `startEngine()`. Derive a subclass `Car` from `Vehicle` that adds properties like `numberOfDoors` and `isElectric`. Override the `startEngine()` method in `Car` to include specific functionality for electric cars. Implement a main class to create an object of the `Car` class and demonstrate the inherited and overridden functionality.
+
+2. **Multilevel Inheritance:**
+   - Create a base class `Animal` with a method `sound()`. Derive a class `Mammal` from `Animal` that adds a method `giveBirth()`. Then, create another subclass `Human` from `Mammal` that adds properties like `name` and `language` along with a method `speak()`. Implement a program to demonstrate how the `Human` class can access methods from both `Mammal` and `Animal` classes.
+
+3. **Hierarchical Inheritance:**
+   - Define a base class `Shape` with a method `draw()`. Create two subclasses `Circle` and `Rectangle` that inherit from `Shape`. Each subclass should override the `draw()` method to display a message indicating the shape being drawn. Implement a main class to create objects of `Circle` and `Rectangle` and call their `draw()` methods.
+
+4. **Single Inheritance:**
+   - Design a class `Person` with attributes like `name` and `age`, and a method `displayInfo()`. Create a subclass `Student` that adds properties like `studentId` and `major`. Write a Java program where you create a `Student` object, set its properties, and demonstrate the use of inheritance by calling methods from both `Person` and `Student` classes.
+
+5. **Multilevel Inheritance:**
+   - Create a base class `Appliance` with properties like `brand` and `powerRating`, and a method `turnOn()`. Derive a class `KitchenAppliance` that adds properties like `isSmartAppliance` and a method `connectToWiFi()`. Further, derive a class `Microwave` from `KitchenAppliance` that adds a method `heatFood()`. Write a program to demonstrate how `Microwave` inherits properties and methods from both `Appliance` and `KitchenAppliance`.
+
+6. **Hierarchical Inheritance:**
+   - Create a base class `Employee` with properties like `employeeId` and `name`, and a method `calculateSalary()`. Then, create two subclasses: `FullTimeEmployee` and `PartTimeEmployee`, both inheriting from `Employee`. `FullTimeEmployee` should have additional properties like `annualSalary`, and `PartTimeEmployee` should have properties like `hourlyRate` and `hoursWorked`. Each subclass should override the `calculateSalary()` method to calculate salary based on their specific attributes. Implement a main class to create instances of both `FullTimeEmployee` and `PartTimeEmployee` and demonstrate the overridden methods.
